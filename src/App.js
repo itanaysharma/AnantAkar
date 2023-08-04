@@ -51,19 +51,16 @@ const MyComponent = () => {
             <div>Return</div>
           </div>
         </div>
-        <div className="flex-col font-mono font-bold py-4 xl:py-6 2xl:py-7">
-          <div className="flex">
-            <div className="md:px-16 xl:px-20 xl:text-lg 2xl:text-xl">
-              <span className="cursor-pointer">Pattern</span>
-            </div>
-            <div className="md:px-16 xl:px-20 xl:text-lg 2xl:text-xl">
-              <span className="cursor-pointer">Orders</span>
-            </div>
-            <div className="md:px-16 xl:px-20 xl:text-lg 2xl:text-xl">
-              <span className="cursor-pointer">User</span>
-            </div>
-          </div>
-          <div>Content</div>
+        <div className="flex-col font-mono font-bold py-4">
+          <nav className="flex justify-between">
+            <section className="md:w-10 xl:w-32 xl:w-64 2xl:w-80"></section>
+            <nav className="flex">
+              <span className="md:pl-24 xl:pl-60 2xl:pl-80 "> Pattern </span>
+              <span className="md:px-28 xl:px-36"> Orders</span>
+              <span className="md:pr-8 2xl:pr-10"> User</span>
+            </nav>
+          </nav>
+          <section></section>
         </div>
       </div>
     </>
